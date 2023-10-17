@@ -1,7 +1,7 @@
 # Alejandros Coding Quiz Project
 # Coding Quiz
 
-![Quiz Screenshot](quiz-screenshot.png)
+![Quiz Screenshot](file:///Users/alejandronunez/Desktop/Screenshot%202023-10-16%20at%207.43.24%20PM.png)
 
 ## Table of Contents
 
