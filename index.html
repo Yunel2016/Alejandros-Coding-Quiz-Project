@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Alejandros Coding Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>Coding Quiz</h1>
+    </header>
+    <main>
+        <section id="start-screen">
+            <h2>Are you ready?</h2>
+            <button id="start-button">Start Quiz</button>
+        </section>
+        <section id="question-screen">
+            <h2 id="question-text"></h2>
+            <ul id="answer-list"></ul>
+        </section>
+        <section id="end-screen">
+            <h2>Quiz Over!</h2>
+            <p>Your score: <span id="final-score"></span></p>
+            <label for="initials">Enter your initials: </label>
+            <input type="text" id="initials">
+            <button id="submit-score">Submit</button>
+        </section>
+    </main>
+    <footer>
+        <p id="timer">Time: <span id="time-remaining">60</span> seconds</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
